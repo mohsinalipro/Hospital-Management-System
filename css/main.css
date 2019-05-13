@@ -1,0 +1,139 @@
+body {
+    background-color: #f8f8f8;
+}
+.logo {
+    background-image: url(../img/hsmlogo.png);
+width: 100%;
+min-height: 100px;
+background-size: contain;
+background-repeat: no-repeat;
+padding-top: 95px;
+padding-bottom: 10px;
+font-size: 13px;
+text-transform: uppercase;
+text-align: center;
+}
+.pucitlogo {
+    background-image: url(../img/pucitlogo.png);
+    width: 100px;
+    display: block;
+    background-size: contain;
+    margin: auto;
+    height: 100px;
+}
+.statsboxes {
+position: relative;
+background-color: #fff;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: .25rem;
+}
+
+.stats_title {
+font-size: 19px;
+padding: .75rem 1.25rem;
+margin-bottom: 0;
+background-color: #292f3b;
+border-bottom: 1px solid rgba(0,0,0,.125);
+color: #FFF
+}
+.statsboxes .statsbox {
+     padding-bottom: 15px;
+}
+.statsboxes .statsbox:hover {
+     background:#eee;
+}
+#logged-in-info {
+    color:#FFF;
+    text-indent: 0;
+    line-height: 2;
+    text-align: center;
+    padding: 10px;
+}
+
+#logged-in-info small {
+    background: #ffffff4d;
+    padding: 5px 10px;
+    border-radius: 32px;
+}
+
+#logged-in-info span {
+    display:block;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+#logged-in-info a {
+    color:inherit;
+}
+#logged-in-info a:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+
+.formdiv2{
+	width:50%;
+	margin:auto;
+	padding:10px;
+}
+
+.searchBox{
+    max-width:30%;
+}
+
+
+.table {
+    background: #fefefe;
+}
+.table thead {
+    background: #FFF;
+}
+.table tbody tr{
+transition: background-color 0.5s ease;
+}
+.table tbody tr:hover {
+    background: #eee;
+}
+
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        //margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
